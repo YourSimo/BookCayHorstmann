@@ -1,0 +1,14 @@
+package com.horstmann.bigjava.ch09.measure2;
+
+/**
+   Describes any class whose objects can measure other objects.
+*/
+public interface Measurer
+{
+   /**
+      Computes the measure of an object.
+      @param anObject the object to be measured
+      @return the measure
+   */
+   double measure(Object anObject);
+}
